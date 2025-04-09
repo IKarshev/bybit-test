@@ -1,0 +1,13 @@
+services:
+    frontend:
+        container_name: frontend
+        build:
+            context: frontend
+        networks: 
+            - frontend-network
+        ports:
+            - "80:3000"
+        restart: unless-stopped
+
+networks:
+    frontend-network:
