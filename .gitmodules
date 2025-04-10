@@ -1,0 +1,3 @@
+[submodule "frontend/bybit"]
+	path = frontend/bybit
+	url = https://github.com/CryptoGnome/Bybit-Lick-Hunter-v4.git
